@@ -9,10 +9,9 @@ public class CompanyEmployee implements Company,Employee{
     @Override
     public String getName() {
         return Company.super.getName() + Employee.super.getName();
+
     }
 }
-
-
 
 interface Company{
 
