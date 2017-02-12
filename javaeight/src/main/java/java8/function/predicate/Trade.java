@@ -31,4 +31,13 @@ public class Trade {
 
         return instrument;
     }
+
+    @Override
+    public String toString() {
+        return "Trade{" +
+                "instrument='" + instrument + '\'' +
+                ", orderQty=" + orderQty +
+                ", status='" + status + '\'' +
+                '}';
+    }
 }

@@ -30,7 +30,7 @@ public class ConsumerDemo {
 
 
 
-    private static class Movie{
+    public static class Movie{
         private String name;
 
         public Movie(String name){
