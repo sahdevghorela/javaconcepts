@@ -5,6 +5,8 @@ public class Employee {
 
     private String dept;
     private String city;
+    private boolean executive;
+    private boolean senior;
 
     public Manager getManager(){
         return new Manager();
@@ -16,5 +18,13 @@ public class Employee {
 
     public String getCity(){
         return this.city;
+    }
+
+    public boolean isExecutive(){
+        return executive;
+    }
+
+    public boolean isSenior() {
+        return this.senior;
     }
 }
