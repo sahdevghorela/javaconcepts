@@ -1,6 +1,7 @@
 package java8.function.consumer;
 
 
+import java.util.List;
 import java.util.function.Consumer;
 
 public class ConsumerDemo {
@@ -32,6 +33,11 @@ public class ConsumerDemo {
 
     public static class Movie{
         private String name;
+        private List<String> actors;
+
+        public List<String> getActors(){
+            return actors;
+        }
 
         public Movie(String name){
             this.name = name;
